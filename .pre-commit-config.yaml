@@ -6,10 +6,6 @@ repos:
         language_version: python3.12
       - id: black-jupyter
         language_version: python3.12
-  - repo: https://github.com/pycqa/flake8
-    rev: 6.0.0
-    hooks:
-      - id: flake8
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
